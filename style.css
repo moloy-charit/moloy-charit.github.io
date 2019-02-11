@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', san-seriff;
+	background-image: url("texture.jpg");
+	margin-left: 405px;
+	user-select: none;
+	color: #1c1c1c;
+}
+
+a {
+	text-decoration: none;
+}
+
+.leftPanel {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	border-right-style: solid;
+	border-width: 5px;
+	border-color: dodgerblue;
+	max-width: 400px;
+	width: 100%;
+	height: 100%;
+}
+
+.panelContainer {
+	max-width: 380px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.profilePic img {
+	border-radius: 50%;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 5px;
+	border-color: dodgerblue;
+	z-index: 1;
+}
+
+.nametag {
+	position: relative;
+	background-color: dodgerblue;
+	margin-top: -58px;
+	display: block;
+	height: 35px;
+	border-radius: 5px;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+	transition: all 200ms;
+}
+
+.nametag h3 {
+	display: block;
+	text-align: center;
+	line-height: 36px;
+	color: white;
+	position: relative;
+	filter: brightness(200%);
+	z-index: 2;
+}
+
+.nametag:hover {
+	transform: scale(0.95);
+}
+
+.tag-shadow {
+	position: relative;
+	margin-top: -35px;
+	background-color: dodgerblue;
+	filter: brightness(85%);
+	display: all;
+	height: 20px;
+	border-radius: 4px;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+}
+
+.social-icons {
+	display: block;
+	margin-left: 150px;
+	margin-right: auto;
+	transition: all 200ms;
+	margin-top: 10px;
+}
+
+.social-icons img {
+	transition: all 200ms;
+	padding: 2px;
+}
+
+.linkedin:hover {
+	transform: scale(1.25);
+	filter: brightness(70%);
+
+}
+
+.fb:hover {
+	transform: scale(1.30);
+	filter: brightness(70%);
+}
+
+.gmail:hover {
+	transform: scale(1.30);
+	filter: brightness(70%);
+}
+
+.title {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 380px;
+}
+
+.title h3 {
+	font-size: 14px;
+	color: #1c1c1c;
+}
+
+.title p {
+	margin-top: -5px;
+	line-height: 0px;
+	font-size: 12px;
+	color: grey;
+}
+
+.summary {
+	display: block;
+	margin: 0 auto;
+	max-width: 380px;
+	text-align: center;
+}
+
+.summary p {
+	margin-top: 30px;
+	font-size: 14px;
+}
+
+.summary h3 {
+	font-size: 14px;
+	color: #1c1c1c;
+}
+
+#mo {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px; 
+}
+
+.author {
+    text-align: center;
+    color: dodgerblue;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.author sup {
+    font-size: 12px;
+}
+
+.main-container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.left-container {
+	max-width: 75%;
+	float: left;
+}
+
+.right-container {
+	max-width: 25%;
+	float: left;
+}
+
+.contactInfo {
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.contactInfo h3 {
+	line-height: 0;
+	font-size: 14px;
+	color: dodgerblue;
+	margin-bottom: 30px;
+}
+
+.contactInfo img {
+	margin: 5px;
+	display: block;
+}
+
+.contactInfo h6 {
+
+	display: block;
+	font-size: 13px;
+	margin-top: -25px;
+	margin-left: 40px;
+	font-weight: 500;
+}
