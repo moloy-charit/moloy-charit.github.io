@@ -199,9 +199,14 @@ a {
 	background-color: white;
 	border-radius: 10px;
 	padding: 10px;
-	box-shadow: 0px 0px 10px 1px lightgray;
 	margin: 10px;
 	margin-top: 15px;
+	transition: all 205ms;
+	box-shadow: 0px 0px 10px 1px lightgray;
+}
+
+.box:hover {
+	box-shadow: 0px 0px 20px 0px grey;
 }
 
 .contactInfo {
@@ -332,6 +337,19 @@ a {
 }
 
 .education h3 {
+	color: dodgerblue;
+	font-size: 14px;
+	margin-left: 40px;
+	line-height: 5px;
+	margin-bottom: 30px;
+}
+
+.employment-history img {
+	float: left; 
+	margin: 5px;
+}
+
+.employment-history h3 {
 	color: dodgerblue;
 	font-size: 14px;
 	margin-left: 40px;
