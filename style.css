@@ -45,7 +45,7 @@ a {
 	border-width: 5px;
 	border-color: dodgerblue;
 	z-index: 1;
-	transition: all 1000ms;
+	transition: transform, border-color 1000ms;
 }
 
 .profilePic img:hover {
