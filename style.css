@@ -45,6 +45,12 @@ a {
 	border-width: 5px;
 	border-color: dodgerblue;
 	z-index: 1;
+	transition: all 1000ms;
+}
+
+.profilePic img:hover {
+	transform: rotate(360deg) scale(1.1);
+	border-color: transparent;
 }
 
 .nametag {
@@ -66,6 +72,7 @@ a {
 	text-align: center;
 	line-height: 36px;
 	color: white;
+	text-shadow: 0px 2px 0px black;
 	position: relative;
 	filter: brightness(200%);
 	z-index: 2;
@@ -105,7 +112,6 @@ a {
 .linkedin:hover {
 	transform: scale(1.25);
 	filter: brightness(70%);
-
 }
 
 .fb:hover {
@@ -193,7 +199,7 @@ a {
 	background-color: white;
 	border-radius: 10px;
 	padding: 10px;
-	box-shadow: 0px 0px 5px 0px grey;
+	box-shadow: 0px 0px 10px 1px lightgray;
 	margin: 10px;
 	margin-top: 15px;
 }
