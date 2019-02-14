@@ -264,6 +264,7 @@ a {
 
 
 .skills {
+	min-height: 5px;
 	height: 5px;
 	font-size: 5px;
 	text-align: center;
@@ -273,7 +274,7 @@ a {
 
 .bengali {
 	background-color: dodgerblue;
-	width: 100%
+	width: 100%;
 }
 
 .hindi {
@@ -344,6 +345,10 @@ a {
 	margin-bottom: 30px;
 }
 
+.education h5 {
+	font-weight: 600;
+}
+
 .employment-history img {
 	float: left; 
 	margin: 5px;
@@ -355,4 +360,16 @@ a {
 	margin-left: 40px;
 	line-height: 5px;
 	margin-bottom: 30px;
+}
+
+.employment-history h5 {
+	font-weight: 600;
+}
+
+.employment-history p {
+	font-size: 12px;
+}
+
+.employment-history b {
+	font-weight: 600;
 }
