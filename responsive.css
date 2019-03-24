@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', san-seriff;
+	background-image: url("texture.jpg");
+    background-attachment: fixed;
+	margin-left: 405px;
+	user-select: none;
+	color: #1c1c1c;
+}
+
+a {
+	text-decoration: none;
+}
+
+.leftPanel {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	border-right-style: solid;
+	border-width: 5px;
+	border-color: dodgerblue;
+	max-width: 400px;
+	width: 100%;
+	height: 100%;
+}
+
+.panelContainer {
+	max-width: 380px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.profilePic img {
+	border-radius: 50%;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 5px;
+	border-color: dodgerblue;
+	z-index: 1;
+	transition: border-color, transform 1000ms;
+}
+
+.profilePic img:hover {
+	transform: rotate(360deg) scale(1.1);
+	border-color: transparent;
+}
+
+.nametag {
+	position: relative;
+	background-color: dodgerblue;
+	margin-top: -48px;
+	display: block;
+	height: 35px;
+	border-radius: 5px;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+	transition: all 200ms;
+}
+
+.nametag h3 {
+	display: block;
+	text-align: center;
+	line-height: 36px;
+	color: white;
+	text-shadow: 0px 2px 0px black;
+	position: relative;
+	filter: brightness(200%);
+	z-index: 2;
+}
+
+.nametag:hover {
+	transform: scale(0.95);
+}
+
+.tag-shadow {
+	position: relative;
+	margin-top: -35px;
+	background-color: dodgerblue;
+	filter: brightness(85%);
+	display: all;
+	height: 20px;
+	border-radius: 4px;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+}
+
+.social-icons {
+	display: block;
+	margin-left: 150px;
+	margin-right: auto;
+	transition: all 200ms;
+	margin-top: 10px;
+}
+
+.social-icons img {
+	transition: all 200ms;
+	padding: 2px;
+}
+
+.linkedin:hover {
+	transform: scale(1.25);
+	filter: brightness(70%);
+}
+
+.fb:hover {
+	transform: scale(1.30);
+	filter: brightness(70%);
+}
+
+.gmail:hover {
+	transform: scale(1.30);
+	filter: brightness(70%);
+}
+
+.title {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 380px;
+}
+
+.title h3 {
+	font-size: 14px;
+	color: #1c1c1c;
+}
+
+.title p {
+	margin-top: -5px;
+	line-height: 0px;
+	font-size: 12px;
+	color: grey;
+}
+
+.summary {
+	display: block;
+	margin: 0 auto;
+	max-width: 380px;
+	text-align: center;
+}
+
+.summary p {
+	margin-top: 30px;
+	font-size: 14px;
+}
+
+.summary h3 {
+	font-size: 14px;
+	color: #1c1c1c;
+}
+
+#mo {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px; 
+}
+
+.author {
+    text-align: center;
+    color: dodgerblue;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.author sup {
+    font-size: 12px;
+}
+
+.main-container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.left-container {
+	width: 55%;
+	float: left;
+}
+
+.right-container {
+	width: 45%;
+	float: left;
+}
+
+.box {
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 15px;
+	transition: all 205ms;
+	box-shadow: 0px 0px 10px 1px lightgray;
+}
+
+.box:hover {
+/*	box-shadow: 0px 0px 20px 0px grey;*/
+}
+
+.contactInfo {
+	margin-bottom: 0px;
+}
+
+.contactInfo h3 {
+	line-height: 0;
+	font-size: 14px;
+	color: dodgerblue;
+	margin-bottom: 30px;
+}
+
+.contactInfo img {
+	margin: 5px;
+	display: block;
+}
+
+.contactInfo h6 {
+
+	display: block;
+	font-size: 12px;
+	margin-top: -25px;
+	margin-left: 40px;
+	font-weight: 500;
+}
+
+.languages img{
+	margin: 5px;
+	display: block;
+	float: left;
+}
+
+.languages h3 {
+	margin-bottom: 30px;
+	margin-left: 40px;
+	line-height: 0px;
+	font-size: 14px;
+	color: dodgerblue;
+}
+
+.languages h5 {
+	margin-left: 0px;
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.progressBar {
+	background-color: lightgray;
+	width: 100%;
+	margin: 0px;
+}
+
+
+
+.skills {
+	min-height: 5px;
+	height: 5px;
+	font-size: 5px;
+	text-align: center;
+	color: transparent;
+	margin-top: -10px;
+}
+
+.bengali {
+	background-color: dodgerblue;
+	width: 100%;
+}
+
+.hindi {
+	background-color: dodgerblue;
+	width: 100%;
+}
+
+.english {
+	background-color: dodgerblue;
+	width: 60%;
+}
+
+.skillBar img {
+	float: left;
+	margin: 5px;
+}
+
+.skillBar h3 {
+	color: dodgerblue;
+	font-size: 14px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	line-height: 3px;	
+}
+
+.skillBar h5 {
+	margin-left: 0px;
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.xml {
+	width: 100%;
+	background-color: dodgerblue;
+}
+
+.xhtml {
+	width: 100%;
+	background-color: dodgerblue;
+}
+
+.ebook {
+	width: 90%;
+	background-color: dodgerblue;
+}
+
+.ocr {
+	width: 95%;
+	background-color: dodgerblue;
+}
+
+.indesign {
+	background-color: dodgerblue;
+	width: 75%;
+}
+
+.education img {
+	margin: 5px;
+	float: left;
+}
+
+.education h3 {
+	color: dodgerblue;
+	font-size: 14px;
+	margin-left: 40px;
+	line-height: 5px;
+	margin-bottom: 30px;
+}
+
+.education h5 {
+	font-weight: 600;
+}
+
+.employment-history img {
+	float: left; 
+	margin: 5px;
+}
+
+.employment-history h3 {
+	color: dodgerblue;
+	font-size: 14px;
+	margin-left: 40px;
+	line-height: 5px;
+	margin-bottom: 30px;
+}
+
+.employment-history h5 {
+	font-weight: 600;
+}
+
+.employment-history p {
+	font-size: 12px;
+}
+
+.employment-history b {
+	font-weight: 600;
+}
